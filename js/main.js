@@ -180,7 +180,7 @@ function onClickButton() {
 }
 */
 
-/*
+
 var counter = 0;
 function onClickButton(el) {
     counter++;
@@ -197,7 +197,7 @@ function onInput(el) {
     console.log(el.value);
 }
 
-
+/*
 var str = document.getElementById('text');
 str.title = "New text";
 console.log(str.title);
