@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изучение JavaScript</title>
+</head>
+<body>
+    <noscript>Включите JavaScript!!!</noscript>
+    <button onclick="onClickButton(this)"> Click on me </button>
+    <br>
+    <input oninput="onInput(this)">
+
+    <p id = "text" title="тайтл">Text</p>
+
+    <span class="simple-text">Text 1</span>
+    <span class="simple-text">Text 2</span>
+    <span class="simple-text">Text 3</span>
+
+    <br><br><br>
+    <form id="registration-form" method="post">
+        <label for="name">Your name:</label>
+        <input type="text" name="name" placeholder="Name" id="name">
+        <br><br>
+        <label for="password">Your password:</label>
+        <input type="password" name="pass" placeholder="Password" id="pass">
+        <br><br>
+        <label for="repass">Repeat your password:</label>
+        <input type="password" name="repass" placeholder="Repeat password" id="repass">
+        <br><br>
+        <span>Gender:</span>
+        <input type="radio" name="state" id="male" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="state" id="female" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+        <div id="error" style="color:red"></div>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <script src="js/main.js">
+       // document.write("JavaScript 1");
+       // console.log("JavaScript 1 for console");
+       // console.info("JavaScript 1 for console");
+       // console.error("JavaScript error message");
+       // console.warn("JavaScript warning")
+       
+    </script>
+</body>
+</html>
